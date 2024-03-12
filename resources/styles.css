@@ -1,0 +1,262 @@
+html {
+  margin: 0px 10%;
+  font-family: Lato, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+body{
+  margin: 0;
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.rightside li {
+  display: inline-block;
+  list-style: none;
+  padding: 1,75rem;
+}
+
+.rightside li:hover {
+  text-decoration: underline;
+}
+
+.rightside a {
+  text-decoration: none;
+  padding: 0.75rem;
+  font-size: 1.125rem;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+/* BANNER */
+
+.banner {
+  background-image: url(./images/background_image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  top: 95px; /* To offset for fixed header. */
+  border-bottom: 1px solid black;
+  
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 4rem;
+}
+
+.banner h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 2rem;
+}
+
+/* PRODUKTE */
+
+ main h1{
+  padding: 20px 0 20px 10px;
+  background-color: #cbf0c3;
+  border: 2px solid #3e8e38;
+  border-radius: 5px;
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+
+}
+
+.card {
+  height: 450px;
+  width: 500;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  margin: 0 5px;
+}
+
+.card-image {
+  height: 300px;
+  background-size: cover;
+}
+
+.solar {
+  background-image: url(./images/solar_charger.jpg);
+  background-position: center;
+}
+
+.computer {
+  background-image: url(./images/grüner_computer.jpg);
+}
+
+.LED {
+  background-image: url(./images/LED_light3.jpg);
+  background-position: center;
+}
+
+.products {
+  display: flex;
+  flex-flow: column;
+}
+
+.products h4 {
+  padding: 20px 0;
+}
+
+/* About Us*/
+
+.aboutUsContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  max-height: 600px;
+  padding: 20px;
+}
+
+.aboutUsContainer img{
+  min-width: 50%;
+}
+
+.aboutUsItem {
+  padding: 0px 20px 0px 20px;
+  object-fit: cover;
+}
+
+.aboutUsText {
+  background-color: #ffffff;
+  border-radius: 0 50px;
+  box-shadow: #295e25 5px 5px 10px;
+  
+}
+
+
+/* TEAM */
+
+.containerTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
+  }
+
+.cardTeam {
+  display: flex;
+  flex: 1;
+  margin: 10px 20px;
+  padding: 10px ;
+  background-color: #cbf0c3;
+  box-shadow: #295e25 5px 5px 10px;
+}
+
+.cardTeam li {
+  list-style: none;
+}
+
+.cardTeam img {
+  max-height: 350px;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-width: 25%;
+  flex: 1;
+}
+
+
+.cardText {
+  flex:4;
+  padding-left: 50px;
+}
+
+.sophie {
+  margin-right: 400px;
+  border-radius: 0 0 100px 0;
+}
+
+.mia {
+flex-direction: row-reverse;
+margin-left: 400px;
+border-radius: 100px 0 0 0;
+}
+
+.alex {
+  margin-right: 400px;
+  border-radius: 0 100px 0 0; 
+}
+
+/* BLOG */
+
+.blog {
+  padding: 20px 0 50px 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+.buttonContainer {
+  margin: 20px;
+}
+
+.button {
+  background-color: #cbf0c3;
+  margin-top: 100px;
+  border: #000000 2px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #295e25;
+  border:#295e25 2px solid;
+  box-shadow: #295e25 1px 1px 15px;
+  transition: 0.3s;
+}
+
+
+.footer {
+  background-color: #cbf0c3;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0 50px 0;
+  border: #295e25 2px solid;
+  border-radius: 5px;
+}
+
+.footer li, ul {
+  list-style: none;
+  padding-left: 0;
+}

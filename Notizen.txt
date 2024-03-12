@@ -1,0 +1,40 @@
+$ one page layout
+responsiveness beachten
+
+Logo Farbe Schrift: #3e8e38
+Logo Farbe Kreis: #cbf0c3
+
+NAVBAR
+
+$ weiß mit grüner Schrift/ Symbole
+$ Firmenlogo
+! Navigations Logo media querie bei mobiler version, die nav list verschwindet ab 480px oder so
+! hover animation
+
+HEADER 
+
+Großer Banner mit Überschrift
+
+MAIN 
+
+Erst Produkte, dann Über Uns, dann Team, dann Blog
+
+Produkte als Flexbox mit 4 Produkten, quadratische Bilder mit kurze Beschreibung, "erfahren sie mehr" Link 
+ Desktop: alle nebeneinander, text unter den Bildern
+ mobil: alle untereinander
+
+ Über Uns: Zitat als Heading, dann Text und ein eingebettetes Bild
+
+ Team: Heading "Unser Team"
+           Mitarbeiter vorstellen: Desktop: hochkannt Bild mit Text daneben, abwechselnd links und rechts
+                                   Mobil: auch wenn möglich
+
+Blog: Kurzer Text zum Blog, Button zur Weiterleitung
+
+FOOTER 
+
+3 Spalten Grid mit Newsletter Box, Informations Box (Impressum, AGB, Datenschutz), Service Box (FAQ, Kontakt, Presse)
+
+TO DO:
+
+responisvness und media queries
